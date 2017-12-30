@@ -1,0 +1,44 @@
+*{
+	padding:0;
+	margin:0;
+}
+div.container{
+	width:100vw;
+	height:100vh;
+	display: flex;
+}
+div.content{
+	width:90%;
+	height:94%;
+	border:5px;
+	background-color:gray;
+	margin:auto;
+	border-radius: 20px;
+	border: black solid 5px;
+	outline: rgb(60,60,60) 4px dashed;
+	outline-offset: -20px;
+	display: flex;
+}
+div.main{
+	margin:auto;
+}
+h1{
+	color:rgb(62,70,220);
+	font-size:48px;
+	text-shadow: -1px 1px  black,-2px 2px black,-3px 3px black,-4px 4px black;
+}
+div.title{
+	font-size: 22px;
+	padding-left:90px;
+	margin-top:10px;
+
+}
+
+a{
+	color:black;
+	text-decoration: none;
+}
+a:hover{
+	cursor:pointer;
+	color:white;
+}
